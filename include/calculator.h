@@ -4,7 +4,7 @@
 int add(int a, int b);
 int sub(int a, int b);
 int mul(int a, int b);
-int div(int a, int b);
-int car(int x); // Déclaration de la fonction car
+int divide(int a, int b); // Renommer la fonction div en divide
+int car(int x);
 
 #endif // CALCULATOR_H
