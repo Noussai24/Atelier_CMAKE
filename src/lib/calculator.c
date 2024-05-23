@@ -12,7 +12,7 @@ int mul(int a, int b) {
     return a * b;
 }
 
-int divide(int a, int b) { // Renommer la fonction div en divide
+int divide(int a, int b) { // Renommé la fonction div en divide
     if (b != 0)
         return a / b;
     else
