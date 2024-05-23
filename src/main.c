@@ -4,11 +4,7 @@
 #include "./../include/calculator.h"
 #include "calculator.h"
 
-int main() {
-    int result = car(5);
-    printf("The square of 5 is: %d\n", result);
-    return 0;
-}
+
 int main(int argc, char *argv[]){
 	if (argc == 4)
 	{
@@ -38,4 +34,9 @@ int main(int argc, char *argv[]){
 	return 0;
 }
 
+int main() {
+    int result = car(5);
+    printf("The square of 5 is: %d\n", result);
+    return 0;
+}
 		
