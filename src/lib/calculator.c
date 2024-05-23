@@ -1,24 +1,21 @@
-#include "calculator.h"
+#include "./../../include/calculator.h"
 
-int add(int a, int b) {
-    return a + b;
+double _add(double a, double b) {
+	return a+b;
 }
 
-int sub(int a, int b) {
-    return a - b;
+double _sub(double a, double b) {
+	return a-b;
 }
 
-int mul(int a, int b) {
-    return a * b;
+double _mul(double a, double b) {
+	return a*b;
 }
 
-int divide(int a, int b) { // Renommé la fonction div en divide
-    if (b != 0)
-        return a / b;
-    else
-        return 0; // gestion de la division par zéro
+double _div(double a, double b) {
+	return a/b;
 }
 
-int car(int x) {
-    return x * x;
+double _car(double a) {
+	return a*a;
 }
