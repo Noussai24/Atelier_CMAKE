@@ -1,11 +1,12 @@
-cmake_minimum_required(VERSION 3.5)
-project(calculator C)
-add_subdirectory(include)
-add_subdirectory(src)
-include_directories(include)
+cmake_minimum_required(VERSION 3.10)
+project(Calculator)
+
+add_executable(calculator src/main.c src/lib/calculator.c)
+
 enable_testing()
+
 add_test(t1 src/calculator add 2 3)
 add_test(t2 src/calculator sub 3 -2)
 add_test(t3 src/calculator mul 5 5)
-add_test(t4 src/calculator div 1 5)
-add_test(t5 src/calculator car 5) # Ajout du test pour la fonction car
+add_test(t4 src/calculator divide 10 2) // Renommé le test de div en divide
+add_test(t5 src/calculator car 5) // Ajout du test pour la fonction car
